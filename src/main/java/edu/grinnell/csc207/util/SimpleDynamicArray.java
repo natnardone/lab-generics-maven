@@ -57,6 +57,7 @@ public class SimpleDynamicArray<T> implements DynamicArray<T> {
     } // if the array is no big enough
     // And set the values
     this.values[i] = val;
+    //System.err.println(values.length);
   } // set(int, T)
 
   /**
